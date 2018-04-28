@@ -4,8 +4,13 @@
 1. folder kerja ada di folder app
 2. copy **blank.html** dan **rename** sesuai dengan tugas masing-masing
 3. mulai membuat tampilan sesuai tugas, mengacu pada user manual
-4. **simpan**, pastikan repository anda ***up-to-date*** dengan menjalankan perintah ``` git pull ```
-5. kemudian jalankan perintah dibawah (no.2 sampai no. 4)
+4. **simpan**, jalankan perintah ``` git add .```
+5. jalankan perintah ``` git commit -m "keterangan" ```
+![alt](https://github.com/baihaqyaviq/aplikasi_portal_mahasiswa/blob/master/contoh_error.png)
+jika terjadi seperti gambar diatas, jalankan perintah sesua pada tanda kotak merah.
+
+6. pastikan repository anda ***up-to-date*** dengan menjalankan perintah ``` git pull ```
+7. untuk mengupload, jalankan perintah ```git push origin master```
 
 # Cara menggunakan git
 1. untuk mengkloning jalankan perintah ``` git clone https://github.com/baihaqyaviq/aplikasi_keuangan_kampus.git```
