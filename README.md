@@ -4,7 +4,8 @@
 1. folder kerja ada di folder app
 2. copy **blank.html** dan **rename** sesuai dengan tugas masing-masing
 3. mulai membuat tampilan sesuai tugas, mengacu pada user manual
-4. **simpan**, kemudian jalankan perintah dibawah (no.2 sampai no. 4)
+4. **simpan**, pastikan repository anda ***up-to-date*** dengan menjalankan perintah ``` git pull ```
+5. kemudian jalankan perintah dibawah (no.2 sampai no. 4)
 
 # Cara menggunakan git
 1. untuk mengkloning jalankan perintah ``` git clone https://github.com/baihaqyaviq/aplikasi_keuangan_kampus.git```
@@ -15,4 +16,4 @@ jalankan perintah ``` git add . ```
 4. terakhir, upload ke github, jalankan perintah ``` git push origin master```
 5. **catatan**: ketika anda akan mendownload repository supaya ***up to date***, jalankan perintah: ``` git pull```
 
->perintah ``` git pull``` sebaiknya digunakan ketika akan memulai coding, agar ketika meng-koding repository kita tetap ***up to date***.
+>perintah ``` git pull``` sebaiknya digunakan ketika akan memulai coding dan akan melakukan perintah ``` git push origin master ```, agar repository kita tetap ***up to date***.
