@@ -1,19 +1,21 @@
 # Aplikasi Keuangan Kampus
 
 # Cara Mengerjakan tugas
-1. folder kerja ada di folder app
-2. copy **blank.html** dan **rename** sesuai dengan tugas masing-masing
-3. mulai membuat tampilan sesuai tugas, mengacu pada user manual
-4. **simpan**, jalankan perintah ``` git add .```
-5. jalankan perintah ``` git commit -m "keterangan" ```
+
+1. kloning repository, jalankan perintah ``` git clone https://github.com/baihaqyaviq/aplikasi_keuangan_kampus.git```
+2. folder kerja ada di folder app
+3. copy **blank.html** dan **rename** sesuai dengan tugas masing-masing
+4. mulai membuat tampilan sesuai tugas, mengacu pada user manual
+5. **simpan**, jalankan perintah ``` git add .```
+6. jalankan perintah ``` git commit -m "keterangan" ```
 ![alt](https://github.com/baihaqyaviq/aplikasi_portal_mahasiswa/blob/master/contoh_error.png)
 jika terjadi seperti gambar diatas, jalankan perintah sesua pada tanda kotak merah.
 
-6. pastikan repository anda ***up-to-date*** dengan menjalankan perintah ``` git pull ```
-7. untuk mengupload, jalankan perintah ```git push origin master```
+7. pastikan repository anda ***up-to-date*** dengan menjalankan perintah ``` git pull ```
+8. untuk mengupload, jalankan perintah ```git push origin master```
 
 # Cara menggunakan git
-1. untuk mengkloning jalankan perintah ``` git clone https://github.com/baihaqyaviq/aplikasi_keuangan_kampus.git```
+1. asumsinya, anda sudah mengkloning dan masuk ke folder repository
 2. ketika ada perubahan file (tambah file, hapus, edit)
 jalankan perintah ``` git add . ``` 
 **catatan:** gunakan tanda "." untuk semua file, atau ```git add nama_file``` untuk satu file.
