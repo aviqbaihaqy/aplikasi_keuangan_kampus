@@ -19,6 +19,9 @@
 >>>>>>> 22298ae68225c65f6684138a5cadd7c6f781d116
                     You are logged in!
                 </div>
+            </div>
+        </div>
+    </div>
 </div>
 <<<<<<< HEAD
 @endsection
