@@ -19,15 +19,5 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 Route::get('/mahasiswa', 'MahasiswaController@index')->name('mahasiswa');
-=======
-Auth::routes();
 
-Route::get('/home', 'HomeController@index')->name('home');
->>>>>>> 3982a421943dd1a900405c7a0e70043a44adebf2
-=======
-Route::get('/mahasiswa', 'mahasiswaController@index')->name('mahasiswa');
-
->>>>>>> 22298ae68225c65f6684138a5cadd7c6f781d116
