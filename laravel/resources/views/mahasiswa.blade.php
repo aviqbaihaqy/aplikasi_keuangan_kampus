@@ -13,12 +13,19 @@
                             {{ session('status') }}
                         </div>
                     @endif
+<<<<<<< HEAD
 				
 				You are logged in!
+=======
+                    You are logged in!
+>>>>>>> 22298ae68225c65f6684138a5cadd7c6f781d116
                 </div>
             </div>
         </div>
     </div>
 </div>
 @endsection
+<<<<<<< HEAD
 
+=======
+>>>>>>> 22298ae68225c65f6684138a5cadd7c6f781d116
