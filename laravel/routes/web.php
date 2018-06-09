@@ -1,5 +1,4 @@
 <?php
-
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -18,14 +17,14 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
-<<<<<<< HEAD
+/**
+ * IqbalShobirin.
+ * 2015150066
+ */
+Route::resource('buku-pembantu-stok', 'BpsController');
 Route::get('/mahasiswa','MahasiswaController@index')->name('mahasiswa');
-=======
 
 Route::get('/mahasiswa', 'mahasiswaController@index')->name('mahasiswa');
 
-<<<<<<< HEAD
+
 Route::get('/home', 'HomeController@index')->name('home');
->>>>>>> 3982a421943dd1a900405c7a0e70043a44adebf2
-=======
->>>>>>> 22298ae68225c65f6684138a5cadd7c6f781d116
