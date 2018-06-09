@@ -14,3 +14,29 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+<<<<<<< HEAD
+=======
+
+<<<<<<< HEAD
+>>>>>>> e97ebe228fa8ec8b7b8aa7cf40913bc46db8def3
+=======
+<<<<<<< HEAD
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+=======
+>>>>>>> 7bd1b8541fc7737ead37155eca430eb70e2e350a
+Route::get('/mahasiswa', 'MahasiswaController@index')->name('mahasiswa');
+>>>>>>> e97ebe228fa8ec8b7b8aa7cf40913bc46db8def3
