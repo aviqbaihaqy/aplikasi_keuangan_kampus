@@ -4,7 +4,7 @@ use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Database\Migrations\Migration;
 
-class CreateOrderPembelianTable extends Migration
+class CreateMitraKerjaTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,15 +13,11 @@ class CreateOrderPembelianTable extends Migration
      */
     public function up()
     {
-        Schema::create('order_pembelian', function (Blueprint $table) {
+        Schema::create('mitra_kerja', function (Blueprint $table) {
             $table->increments('id');
-			$table->date('tanggal');
-			$table->string('bagian');
-			$table->string('supplier');
-			$table->date('diperlukan');
-			$table->date('harus_dikirim');
-			$table->string('cara_bayar');
-			$table->integer('total');
+            $table->string('nama');
+            $table->string('alamat');
+            $table->string('contactperson');
             $table->timestamps();
         });
     }
@@ -33,6 +29,6 @@ class CreateOrderPembelianTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('order_pembelian');
+        Schema::dropIfExists('mitra_kerja');
     }
 }
