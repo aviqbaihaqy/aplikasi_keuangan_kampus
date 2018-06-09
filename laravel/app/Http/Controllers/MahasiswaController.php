@@ -6,6 +6,24 @@ use Illuminate\Http\Request;
 
 class MahasiswaController extends Controller
 {
+<<<<<<< HEAD
+ /**
+ *
+ *@return void
+ */
+ public function __construct()
+ {
+ 	$this->middleware('auth');
+ }
+ /**
+ *
+ *@return \illuminate\Http\Response
+ */
+ public function index()
+ {
+ 	return view('Mahasiswa');
+ }
+=======
     /**
 <<<<<<< HEAD
 	* 
@@ -121,5 +139,9 @@ class MahasiswaController extends Controller
         //perintah untuk menghapus data
     }
 >>>>>>> 2c8eeb53200754872485e40d4fe7d4906c9057e7
+<<<<<<< HEAD
+>>>>>>> f2cb4b3df7b49436242f26309659f6ad440e32cc
+=======
 >>>>>>> e97ebe228fa8ec8b7b8aa7cf40913bc46db8def3
+>>>>>>> 3478376f421014261027730e029fbcad3b8de29e
 }

@@ -21,7 +21,7 @@ class CreateOrderPembelianTable extends Migration
 			$table->date('diperlukan');
 			$table->date('harus_dikirim');
 			$table->string('cara_bayar');
-			$table->int('total');
+			$table->integer('total');
             $table->timestamps();
         });
     }
