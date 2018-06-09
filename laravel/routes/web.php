@@ -1,5 +1,4 @@
 <?php
-
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -14,18 +13,49 @@
 /* Route::get('/', function () {
     return view('welcome');
 });
+<<<<<<< HEAD
  */
 
 /**
  * KETIKA DIJALANKAN AKAN ERROR KARENA CONTROLLER BELUM DIBUAT, 
  * OLEH KARENA ITU MATIKAN `//` (JANGAN DIHAPUS) ROUTE YANG TIDAK DIKERJAKAN
  */
+=======
+ 
+Auth::routes();
 
+Route::get('/home', 'HomeController@index')->name('home');
+<<<<<<< HEAD
+/**
+ * IqbalShobirin.
+ * 2015150066
+ */
+Route::resource('buku-pembantu-stok', 'BpsController');
+Route::get('/mahasiswa','MahasiswaController@index')->name('mahasiswa');
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> 791636a6da7eff654ad877289b22430c48dfa560
+
+<<<<<<< HEAD
+>>>>>>> 767436da8774162d16b96ac2fc9dfe20b244a5a0
+
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+Route::get('/mahasiswa', 'MahasiswaController@index' )->name ('mahasiswa');
+=======
+>>>>>>> e97ebe228fa8ec8b7b8aa7cf40913bc46db8def3
+>>>>>>> e0c37e699f92790e3f55ea5f7078828344a78d91
+=======
+<<<<<<< HEAD
+>>>>>>> 791636a6da7eff654ad877289b22430c48dfa560
 Auth::routes();
 
 // 1, M Ilvan Baihaqi, 2015150011,1.1 Mitra Kerja
 Route::get('/mitra_kerja', 'MitraKerjaController@index')->name('mitra kerja');
 
+<<<<<<< HEAD
 // 2, Wahid Ardianto, 2015150018,1.1.1 Menambah Mitra Kerja
 // 3, Afriadi Agung Dwiyono, 2015150019,1.1.2 Menampilkan Detail Mitra Kerja
 // 4, Muhamad Masykur Niam, 2015150025,1.2 Surat Permintaan Pembelian (SPP)
@@ -65,3 +95,34 @@ Route::get('/mitra_kerja', 'MitraKerjaController@index')->name('mitra kerja');
 // 38, Khafiska Khoerunnisak, 2015150125,2.2.1 Menambah Piutang
 // 39, Ahmad Fakih Nugroho, 2015150127,2.2.4 Mencetak Piutang
 // 40, Muhamad Nasrudin, 2016150109,2.3 Penagihan Piutang
+=======
+Auth::routes();
+
+<<<<<<< HEAD
+
+Route::get('/home', 'HomeController@index')->name('home');
+=======
+Route::get('/home', 'HomeController@index')->name('home');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+<<<<<<< HEAD
+
+Route::get('/mahasiswa', 'MahasiswaController@index')->name('mahasiswa');
+
+=======
+=======
+>>>>>>> 7bd1b8541fc7737ead37155eca430eb70e2e350a
+Route::get('/mahasiswa', 'MahasiswaController@index')->name('mahasiswa');
+<<<<<<< HEAD
+ 
+=======
+>>>>>>> e97ebe228fa8ec8b7b8aa7cf40913bc46db8def3
+>>>>>>> 7bd1b8541fc7737ead37155eca430eb70e2e350a
+<<<<<<< HEAD
+>>>>>>> 3478376f421014261027730e029fbcad3b8de29e
+=======
+>>>>>>> 791636a6da7eff654ad877289b22430c48dfa560
+>>>>>>> 52f8885ce33c4996eaefc605f0be0c036c2cbd85
+>>>>>>> 767436da8774162d16b96ac2fc9dfe20b244a5a0
