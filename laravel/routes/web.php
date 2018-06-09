@@ -18,4 +18,8 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+<<<<<<< HEAD
+=======
+
+>>>>>>> e97ebe228fa8ec8b7b8aa7cf40913bc46db8def3
 Route::get('/mahasiswa', 'MahasiswaController@index')->name('mahasiswa');
