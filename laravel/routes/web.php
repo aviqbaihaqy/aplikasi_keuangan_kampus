@@ -13,8 +13,7 @@
 /* Route::get('/', function () {
     return view('welcome');
 });
-<<<<<<< HEAD
- */
+*/
 
 /**
  * KETIKA DIJALANKAN AKAN ERROR KARENA CONTROLLER BELUM DIBUAT, 
