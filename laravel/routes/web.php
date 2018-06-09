@@ -14,9 +14,18 @@
 Route::get('/', function () {
     return view('welcome');
 });
+<<<<<<< HEAD
 Auth::routes();
 Route::get('/home','HomeController@index')->name('home');
 Route::get('/mahasiswa','MahasiswaController@index')->name('mahasiswa');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+=======
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('/mahasiswa', 'MahasiswaController@index')->name('mahasiswa');
+>>>>>>> f2cb4b3df7b49436242f26309659f6ad440e32cc
