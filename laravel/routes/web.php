@@ -22,7 +22,7 @@
 Auth::routes();
 
 // 1, M Ilvan Baihaqi, 2015150011,1.1 Mitra Kerja
-Route::get('/mitra_kerja', 'MitraKerjaController@index')->name('mitra kerja');
+Route::get('/mitra_kerja', 'MitraKerjaController@index')->name('mitra_kerja');
 
 // 2, Wahid Ardianto, 2015150018,1.1.1 Menambah Mitra Kerja
 // 3, Afriadi Agung Dwiyono, 2015150019,1.1.2 Menampilkan Detail Mitra Kerja
@@ -30,6 +30,7 @@ Route::get('/mitra_kerja', 'MitraKerjaController@index')->name('mitra kerja');
 // 5, Faisal Hafiz Varian, 2015150026,1.2.1 Menambah Surat Permintaan Pembelian (SPP)
 // 6, Suryo Adi Saputro, 2015150033,1.2.2 Menampilkan Detail Surat Permintaan Pembelian (SPP)
 // 7, Fatkhurrohman, 2015150036,1.2.5 Mencetak Surat Permintaan Pembelian (SPP)
+Route::get('/cetak-spp', 'CetakSppController@index'); // ->middleware('auth');
 // 8, Achmad Muhajirin, 2015150037,1.3 Persetujuan SPP
 // 9, Faik Sarifudin, 2015150038,1.4 Order Pembelian
 // 10, Muhammad Anis Fuadi, 2015150044,1.4.1 Menambah Order Pembelian
