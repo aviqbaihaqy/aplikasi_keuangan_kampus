@@ -8,6 +8,24 @@ class MahasiswaController extends Controller
 {
     /**
      * Create a new controller instance.
+<<<<<<< HEAD
+     * 
+     * @return void
+     */
+    public function _construct()
+    {
+        $this->middleware('auth');
+    }
+    /**
+     * Show the application dashboard.
+     * 
+     * @return \Illuminate\Http\Response
+     */
+    public function index()+
+    {
+        return view('mahasiswa');
+    }
+=======
      *
      * @return void
      */
@@ -80,4 +98,5 @@ class MahasiswaController extends Controller
     {
         //perintah untuk menghapus data
     }
+>>>>>>> 2c8eeb53200754872485e40d4fe7d4906c9057e7
 }
