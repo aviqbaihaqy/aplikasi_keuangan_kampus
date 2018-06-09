@@ -51,6 +51,11 @@ You are logged in!
                         </div>
                     @endif
 <<<<<<< HEAD
+<<<<<<< HEAD
+				
+				You are logged in!
+=======
+=======
 
 =======
 <<<<<<< HEAD
@@ -61,8 +66,13 @@ You are logged in!
 >>>>>>> f2cb4b3df7b49436242f26309659f6ad440e32cc
 =======
 >>>>>>> e97ebe228fa8ec8b7b8aa7cf40913bc46db8def3
+<<<<<<< HEAD
 >>>>>>> 3478376f421014261027730e029fbcad3b8de29e
+=======
+>>>>>>> 791636a6da7eff654ad877289b22430c48dfa560
+>>>>>>> 52f8885ce33c4996eaefc605f0be0c036c2cbd85
                     You are logged in!
+>>>>>>> 22298ae68225c65f6684138a5cadd7c6f781d116
                 </div>
             </div>
         </div>
@@ -70,6 +80,7 @@ You are logged in!
 </div>
 <<<<<<< HEAD
 @endsection
+<<<<<<< HEAD
 =======
 @endsection
 <<<<<<< HEAD
@@ -77,3 +88,13 @@ You are logged in!
 =======
 >>>>>>> 7bd1b8541fc7737ead37155eca430eb70e2e350a
 >>>>>>> 3478376f421014261027730e029fbcad3b8de29e
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+
+=======
+>>>>>>> 22298ae68225c65f6684138a5cadd7c6f781d116
+=======
+>>>>>>> 7bd1b8541fc7737ead37155eca430eb70e2e350a
+>>>>>>> 791636a6da7eff654ad877289b22430c48dfa560
+>>>>>>> 52f8885ce33c4996eaefc605f0be0c036c2cbd85

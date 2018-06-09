@@ -79,7 +79,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Larafast
+                    fastikom
                 </div>
 
                 <div class="quote">put your custom
