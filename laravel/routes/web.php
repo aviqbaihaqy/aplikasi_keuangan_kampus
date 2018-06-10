@@ -39,7 +39,6 @@ Route::resource('mitra_kerja', 'MitraKerjaController');
 Route::resource('spp', 'SppController');
 
 // 7, Fatkhurrohman, 2015150036,1.2.5 Mencetak Surat Permintaan Pembelian (SPP)
-
 Route::get('spp/{id}/cetak', 'SppController@cetak')->name('cetak.spp');
 
 // 8, Achmad Muhajirin, 2015150037,1.3 Persetujuan SPP
