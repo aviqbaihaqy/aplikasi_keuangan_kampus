@@ -14,6 +14,12 @@ class PenagihanPiutangController extends Controller
     public function index()
     {
         return view('penagihan_piutang');
+//         // get all the nerds
+        //         $nerds = Nerd::all();
+
+// // load the view and pass the nerds
+        //         return View::make('nerds.index')->with('nerds', $nerds);
+
     }
 
     /**
@@ -23,7 +29,8 @@ class PenagihanPiutangController extends Controller
      */
     public function create()
     {
-        //
+        // load the create form (app/views/nerds/create.blade.php)
+        // return View::make('nerds.create');
     }
 
     /**
