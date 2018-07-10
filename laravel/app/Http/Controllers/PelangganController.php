@@ -6,7 +6,7 @@ use Illuminate\Http\Request;
 
 class PelangganController extends Controller
 {
-     /**
+ /**
      * Display a listing of the resource.
      *
      * @return \Illuminate\Http\Response
@@ -89,4 +89,3 @@ class PelangganController extends Controller
         //
     }
 }
-
