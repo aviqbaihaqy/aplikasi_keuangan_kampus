@@ -1,5 +1,5 @@
 <?php
-
+//Edited nyoba upload lewat laptop teman
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
