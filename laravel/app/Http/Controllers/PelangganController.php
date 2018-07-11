@@ -4,17 +4,22 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class PembantuHutangController extends Controller
+class PelangganController extends Controller
 {
-    /**
+ /**
      * Display a listing of the resource.
      *
      * @return \Illuminate\Http\Response
      */
     public function index()
     {
-		return view('pembantu_hutang');
-        //
+        return view('pelanggan');
+//         // get all the nerds
+        //         $nerds = Nerd::all();
+
+// // load the view and pass the nerds
+        //         return View::make('nerds.index')->with('nerds', $nerds);
+
     }
 
     /**
@@ -24,7 +29,8 @@ class PembantuHutangController extends Controller
      */
     public function create()
     {
-        //
+        // load the create form (app/views/nerds/create.blade.php)
+        // return View::make('nerds.create');
     }
 
     /**
