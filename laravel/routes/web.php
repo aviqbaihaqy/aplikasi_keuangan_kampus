@@ -89,7 +89,7 @@ Route::get('pembayaran_hutang/create', 'PembayaranHutangController@create')->nam
 Route::get('pembayaran_hutang/{id}/cetak', 'PembayaranHutangController@cetak')->name('cetak.pembayaranhutang');
 
 // 26, Isma Amalia Rahma, 2015150093,1.9 Buku Pembantu Hutang
-Route::get('pembantu_hutang', 'PembantuHutangController@index')->name('index.pembantuhutang');
+Route::get('pembantu_hutang_in', 'PembantuHutangController@index')->name('index.pembantuhutang');
 
 // 27, Siti Nur Halimatus Sya'diyah, 2015150094,1.9.1 Mencari Laporan Daftar Hutang
 Route::get('pembantu_hutang/{id}/show', 'PembantuHutangController@show')->name('show.pembantuhutang');
